@@ -1,6 +1,7 @@
 .external-css {
     color: red;
     font-family:impact;
+    font-size: 40px;
 }
 ul li { 
     list-style-type: square;
