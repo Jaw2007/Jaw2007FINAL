@@ -60,6 +60,8 @@ aside {
     font-family: sans-serif;
     color: #db3442;
     background-color: #39df84;
+    margin-left: 15px;
+    float: right;
 }
 footer {
     background-color: black;
