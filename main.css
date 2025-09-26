@@ -81,3 +81,13 @@ background-color: azure;
 video {
     width: 100%;
 }
+section{
+    background-color: antiquewhite;
+    font-style: italic;
+    float: right;
+ }
+    #special-feature { background-color: #c7bb12;
+    color: green;
+    font-size: 80px;
+}
+  
