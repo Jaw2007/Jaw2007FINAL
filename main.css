@@ -90,4 +90,19 @@ section{
     color: green;
     font-size: 80px;
 }
-  
+Table {
+    border: 1px red;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid red;
+    padding: .2em .7em;
+    text-align: left;
+    &.left {text-align: right;}
+}
+thead, tfoot {
+    background-color: #df2727;
+}
+tfoot {
+    font-weight: bold;
+}
