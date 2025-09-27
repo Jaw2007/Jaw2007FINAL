@@ -3,9 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Order form</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <header>
+    <nav> 
+    <ul>
+        <li><a href="index.html" target="_self">Home</a></li>
+        <li><a href="About_us.html" target="_self">About us</a></li>
+        <li><a href="questions.html" target="_self">Common questions</a></li>
+        <li><a href="job_application.html" target="_self">Apply for a job!</a></li>
+        <li><a href="ideas.html" target="_self">Submit an idea!</a></li>
+        <li><a href="pizzas.html" target="_self">Pizzas!</a></li>
+        <li><a href="top_donations.html" target="_self">Top donators</a></li>
+        <li><a href="toppings.html" target="_self">toppings!</a></li>
+        <li><a href="order_form.html" target="_self">Order here</a></li>
+        <li><a href="other_foods.html" target="_self">Other foods</a></li>
+    </ul>
+    </nav> 
+
+    <img src="images/pizza.gif" alt="Pizza place logo" width="100">
+    <h1>Order now!</h1> 
+    </header>
+
+    <main>
+    <h3>Within a few clicks your pizza will be on it's way</h3>
+
+    <element class="external-css">WARNING MUST BE 18+ TO ORDER</element>
+
+    <br>
+
+    <form action="submit.html" method="post">
+
+    <br>
+
+    <label for="Phone">Phone Number:</label>
+    <input type="tel" id="Phone" phone="phone" required>
+
+    <br>
     
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+    
+    <br>
+  
+    <label for="toppings">Toppings</label>
+    <select id="toppings" name="toppings">
+    <option value="Pepperoni">Pepperoni</option>
+    <option value="Pineapple">Pineapple</option>
+    <option value="Hot_cheetos">Hot cheetos</option>
+    <option value="Turkey">Turkey</option>
+    <option value="none">None</option>
+    </select>
+
+    <br>
+
+    <label for="pizza">Pizza</label>
+    <select id="pizza" name="Pizza">
+    <option value="stuffed_crust">Stuffed crust</option>
+    <option value="flat_bread">flat bread</option>
+    <option value="cheese_stuffed_bread">Cheese stuffed bread</option>
+    </select>
+
+    <br>
+
+    <label for="other_types_of_food">Other types of food</label>
+    <select id="other_types_of_food" name="Other_types_of_food">
+    <option value="cheese_sticks">Cheese sticks</option>
+    <option value="sandwich">Sandwich</option>
+    <option value="fries">Fries</option>
+    <option value="none">None</option>
+    </select>
+
+    <br>
+
+    <label for="datetimelocal">Local date and time</label>
+    <input type="datetime-local" id="datetime" name="datetime" required>
+
+    <br>
+
+    <label for="address">address:</label>
+    <input type="tel" id="address" address="address" required>
+    
+    <br>
+
+    <input type="submit" value="Submit">
+    
+    <input type="reset" value="Reset">
+
+</form>
+    </main>
+
+    <footer>
+    <p>&copy;2025 Jaw's pizza place inc.</p>
+    <a href="https://github.com/Jaw2007" target="_blank">Visit my GitHub profile</a>
+    </footer>
 </body>
 </html>
