@@ -31,25 +31,25 @@
 
     <main>
     <h3>Within a few clicks your pizza will be on it's way</h3>
-
+<!---I used external css to set a warning-->
     <element class="external-css">WARNING MUST BE 18+ TO ORDER</element>
 
     <br>
-
+<!--lets users submit-->
     <form action="submit_order.html" method="post">
 
     <br>
-
+<!---lets user put a phone number-->
     <label for="Phone">Phone Number:</label>
     <input type="tel" id="Phone" list="phone" required>
 
     <br>
-    
+<!---for birth dates-->
     <label for="birthdate">Birth Date:</label>
     <input type="date" id="birthdate" name="birthdate" required>
     
     <br>
-  
+<!---A box that checks for lists of toppings-->
     <label for="toppings">Toppings</label>
     <select id="toppings" name="toppings">
     <option value="Pepperoni">Pepperoni</option>
@@ -60,16 +60,16 @@
     </select>
 
     <br>
-
-    <label for="pizza">Pizza</label>
-    <select id="pizza" name="Pizza">
+<!---A box that checks for the type of bread-->
+    <label for="bread">Bread</label>
+    <select id="bread" name="bread">
     <option value="stuffed_crust">Stuffed crust</option>
     <option value="flat_bread">flat bread</option>
     <option value="cheese_stuffed_bread">Cheese stuffed bread</option>
     </select>
 
     <br>
-
+<!---A box that checks for the other types of food-->
     <label for="other_types_of_food">Other types of food</label>
     <select id="other_types_of_food" name="Other_types_of_food">
     <option value="cheese_sticks">Cheese sticks</option>
@@ -79,19 +79,19 @@
     </select>
 
     <br>
-
+<!---the date and time box-->
     <label for="datetimelocal">Local date and time</label>
     <input type="datetime-local" id="datetime" name="datetime" required>
 
     <br>
-
+<!---Address box-->
     <label for="address">address:</label>
     <input type="tel" id="address" address="address" required>
     
     <br>
-
+<!---Submits and takes you to the submit_order page-->
     <input type="submit" value="Submit">
-    
+<!---Erases everything-->   
     <input type="reset" value="Reset">
 
 </form>
